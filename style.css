@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#header{
+    height: 300px;
+
+}
+
+
+#week1,
+#week2,
+#week3,
+#week4,
+#week5,
+#week6,
+#week7,
+#week8,
+#week9,
+#week12,
+#week13,
+#week14{
+    height: 800px;
+}
+
+#week1,
+#week5,
+#week9{
+    background-color: lightpink;
+}
+
+#week2,
+#week6,
+#week12{
+    background-color: lavender;
+}
+#week3,
+#week7,
+#week13{
+    background-color: orchid;
+}
+#week4,
+#week8,
+#week14{
+    background-color: aquamarine;
+}
+
+h1{
+    color:orange  
+}
+
+h2{
+    color:red
+}
+
+h3{
+    color:aqua
+}
+
+h4{
+    color:pink
+}
+
+html{
+    background-color: floralwhite;
+}
+
+#backToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
